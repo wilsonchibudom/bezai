@@ -1,0 +1,188 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.free img
+{
+  width: 10%;
+}
+.logohome img{
+    width: 230px;
+    transform: translate(10%,180%);
+}
+body{
+    background: rgb(183, 149, 169);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu-bar{
+   
+    background-color: white;
+    text-align: right;
+    border-radius: 7.5%;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #f8982d;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #f8982d;
+}
+.active, .sub-menu-1 li:hover{
+    background: #f8982d;
+    border-radius: 5px;
+    color: black;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: white;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+}
+.active, .menu-bar ul li:hover .sub-menu-1 ul li{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted black;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+   border-bottom: none;
+  }
+  .sub-menu-2{
+    display: none;
+}
+.hover-me:hover .sub-menu-2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: black;
+}
+.sidemenu
+{
+    position: fixed;
+	width: 180px;
+	box-shadow: 0 0 3px rgba(0, 10, 0, 1.0);
+	background: white;
+    padding: 30px;
+	margin: 8% auto 0;
+	text-align: left;
+    list-style: none;
+    left: 1.5%;
+    top: 5rem;
+    box-shadow: 0 0 3px rgba(0, 10, 0, 40);
+    border-radius: 2.5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sidemenu li a
+{
+     text-decoration: none;
+     color: black;
+}
+.active, .sidemenu  li:hover{
+    background: #f8982d;
+    border-radius: 5px;
+    color: black;
+}
+.search{
+    text-align: center;
+}
+.sidemenu1
+{
+    
+    position: fixed;
+	width: 350px;
+	background: white;
+    padding: 30px;
+	margin: 20% auto 10%;
+	text-align: left;
+    list-style: none;
+    left: 18%;
+    top: 5rem;
+    box-shadow: 0 0 3px rgba(0, 10, 0, 40);
+    border-radius: 2.5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sidemenu1 li a
+{
+     text-decoration: none;
+     color: black;
+}
+.active, .sidemenu1  li:hover{
+    background: #f8982d;
+    border-radius: 5px;
+    color: black;
+}
+.sidemenu2
+{
+    position: fixed;
+	width: 250px;
+	background: white;
+    padding: 30px;
+	margin: 8% auto 10%;
+	text-align: left;
+    list-style: none;
+    left: 39%;
+    top: 5rem;
+    box-shadow: 0 0 3px rgba(0, 10, 0, 40);
+    border-radius: 2.5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sidemenu2 li a
+{
+     text-decoration: none;
+     color: black;
+}
+.active, .sidemenu2  li:hover{
+    background: #f8982d;
+    border-radius: 5px;
+    color: black;
+}
+.sidemenu3
+{
+    position: fixed;
+	width: 350px;
+	background: white;
+    padding: 30px;
+	margin: 20% auto 10%;
+	text-align: left;
+    list-style: none;
+    left: 60%;
+    top: 5rem;
+    box-shadow: 0 0 3px rgba(0, 10, 0, 40);
+    border-radius: 2.5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sidemenu3 li a
+{
+     text-decoration: none;
+     color: black;
+}
+.active, .sidemenu3  li:hover{
+    background: #f8982d;
+    border-radius: 5px;
+    color: black;
+}
+
+    
